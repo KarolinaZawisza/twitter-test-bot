@@ -9,3 +9,7 @@ class SeleniumConnection:
     def connect_to_test(driver):
         driver.get('https://www.speedtest.net/')
         driver.find_element_by_xpath('//*[@id="_evidon-banner-acceptbutton"]').click()
+
+    @staticmethod
+    def connect_to_twitter(driver):
+        driver.get('https://www.twitter,com/')
