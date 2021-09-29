@@ -12,4 +12,4 @@ class SeleniumConnection:
 
     @staticmethod
     def connect_to_twitter(driver):
-        driver.get('https://www.twitter,com/')
+        driver.get('https://www.twitter.com/')
